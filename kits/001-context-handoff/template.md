@@ -75,9 +75,13 @@ Read these before acting:
 1. `<file/link>` — `<why it matters>`
 2. `<file/link>` — `<why it matters>`
 
-## 10. Receiver Prompt
+## 10. Receiver Prompt (Optional)
 
-Paste this into the next AI session together with the handoff card:
+This is the opening instruction for the next AI session. Its job is not to add more context, but to prevent the new AI from reading the handoff card and executing blindly.
+
+If the short handoff card already says "the new AI should restate the goal, state, risks, and first step before acting", you can skip this expanded section.
+
+For safer handoffs, paste this into the next AI session together with the handoff card:
 
 ```text
 Read this handoff card first.
@@ -90,4 +94,3 @@ Before acting, reply with:
 5. what you will not do.
 If anything is unclear, ask before executing.
 ```
-

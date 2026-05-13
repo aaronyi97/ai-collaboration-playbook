@@ -27,6 +27,8 @@ If you use OpenClaw, Cursor, Claude Code, Codex, or another AI coding tool, star
 
 Do not send the GitHub link to the AI by itself. Open the file above, copy the full text block, and paste that into your AI coding tool.
 
+The first kit now defaults to direct handoff mode: it outputs a short copyable handoff table first, then asks whether you want the detailed version.
+
 If you prefer to read the full guide:
 
 [Context Handoff Kit](kits/001-context-handoff/)

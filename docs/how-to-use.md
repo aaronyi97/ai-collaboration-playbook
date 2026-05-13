@@ -7,10 +7,10 @@ Use the `START.md` file inside each kit.
 The starter prompt assumes the assistant is running inside a tool that can inspect files, read GitHub links, or work with a local project. It asks the assistant to:
 
 1. read the kit,
-2. ask for missing project context,
+2. directly create a short handoff table from the current conversation and project context,
 3. avoid editing code too early,
-4. generate the reusable artifact,
-5. provide a receiver prompt for the next AI session.
+4. put reusable output in code blocks for easy copying,
+5. generate the detailed handoff card only if the user asks for it.
 
 ## For Normal Readers
 
@@ -24,8 +24,8 @@ Do not paste only the GitHub link into the AI. Many tools will not read the link
 Watch the video
 -> Open the matching kit
 -> Copy the PINNED.md text block into your AI coding tool
--> Answer the tool's questions
--> Generate your project-specific artifact
+-> The AI generates a short handoff table
+-> Ask for the detailed version only if needed
 -> Reuse it in the next session
 ```
 

@@ -36,7 +36,9 @@ If you are using OpenClaw, Cursor, Claude Code, Codex, or another AI coding tool
 
 Open that file and copy the full text block. Do not send the GitHub link to the AI by itself.
 
-The starter prompt runs in **guided mode**: it asks six questions first, shows a plain-language preview, and only generates the final copy-paste handoff after you confirm. It does not dump a long document immediately.
+The starter prompt runs in **direct handoff mode**: it extracts a short handoff table from the current conversation and project context, then puts it in a code block for easy copying. Missing information is marked as "unconfirmed" instead of forcing the user through a long form first.
+
+After the short table, it asks one question: whether to generate the detailed handoff card.
 
 If you want the fuller starter prompt:
 
@@ -61,7 +63,8 @@ Use it when:
 
 ```text
 Old session
--> Generate handoff card
+-> Generate short handoff card
+-> Generate detailed version only if needed
 -> New session reads handoff card
 -> New session repeats goal, risks, and next step
 -> User confirms
