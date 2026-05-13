@@ -14,14 +14,16 @@ The starter prompt assumes the assistant is running inside a tool that can inspe
 
 ## For Normal Readers
 
-If you do not use an AI coding tool yet, read the kit README first. Then copy the template manually into your AI tool or notes app.
+If you are following a video, open the matching `PINNED.md` file and copy the whole text block into your AI coding tool.
+
+Do not paste only the GitHub link into the AI. Many tools will not read the link automatically and may generate a long incorrect document.
 
 ## Recommended Flow
 
 ```text
 Watch the video
 -> Open the matching kit
--> Copy START.md into your AI coding tool
+-> Copy the PINNED.md text block into your AI coding tool
 -> Answer the tool's questions
 -> Generate your project-specific artifact
 -> Reuse it in the next session
@@ -30,4 +32,3 @@ Watch the video
 ## Important Boundary
 
 These kits are practical templates, not production runtimes. They help you structure work with AI, but they do not replace judgment, testing, code review, or security checks.
-

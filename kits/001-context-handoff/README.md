@@ -32,9 +32,15 @@ The handoff card captures:
 
 If you are using OpenClaw, Cursor, Claude Code, Codex, or another AI coding tool:
 
-[Copy this starter prompt](START.md)
+[Copy the pinned comment starter](PINNED.md)
+
+Open that file and copy the full text block. Do not send the GitHub link to the AI by itself.
 
 The starter prompt runs in **guided mode**: it asks six questions first, shows a plain-language preview, and only generates the final copy-paste handoff after you confirm. It does not dump a long document immediately.
+
+If you want the fuller starter prompt:
+
+[Full starter prompt](START.md)
 
 If you want to fill the template manually:
 

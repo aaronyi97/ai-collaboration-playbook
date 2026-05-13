@@ -16,7 +16,9 @@
 
 如果你用的是 OpenClaw、Cursor、Claude Code、Codex 或其他 AI 编程工具，直接从这里开始：
 
-[一键复制启动 Prompt](kits/001-context-handoff/START.zh-CN.md)
+[中文视频置顶评论版](kits/001-context-handoff/PINNED.zh-CN.md)
+
+注意：不要只把 GitHub 链接发给 AI。请打开上面的文件，复制代码块里的整段启动词，再粘贴到 AI 编程工具。
 
 如果你想看完整说明：
 
@@ -33,8 +35,8 @@
 
 不懂 GitHub 的人：
 
-1. 打开视频置顶评论里的 `START.zh-CN.md`。
-2. 复制里面那段 Prompt。
+1. 打开视频置顶评论里的 `PINNED.zh-CN.md`。
+2. 复制代码块里的整段启动词。
 3. 粘贴到 OpenClaw / Cursor / Claude Code / Codex。
 4. 让 AI 一步步问你问题，并生成可复制到新对话的接棒卡。
 
@@ -50,6 +52,8 @@
 │       ├── README.zh-CN.md    # 中文说明
 │       ├── START.md           # 英文一键启动 Prompt
 │       ├── START.zh-CN.md     # 中文一键启动 Prompt
+│       ├── PINNED.md          # 英文视频置顶评论版
+│       ├── PINNED.zh-CN.md    # 中文视频置顶评论版
 │       ├── template.md        # 英文模板
 │       ├── template.zh-CN.md  # 中文模板
 │       └── examples/
@@ -67,4 +71,3 @@
 ## License
 
 MIT.
-

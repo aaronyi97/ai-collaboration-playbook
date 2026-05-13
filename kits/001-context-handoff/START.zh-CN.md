@@ -1,11 +1,19 @@
 # 一键复制启动 Prompt
 
-把下面整段复制到 OpenClaw、Cursor、Claude Code、Codex 或其他 AI 编程工具里。
+不要只把这个 GitHub 链接发给 AI。请打开本页后，把下面代码块里的整段文字复制到 OpenClaw、Cursor、Claude Code、Codex 或其他 AI 编程工具里。
+
+如果你是在做视频置顶评论，优先用更短的版本：[中文置顶评论版](PINNED.zh-CN.md)。
 
 ```text
 请使用这个开源 Kit，帮我为当前项目生成一份“AI 接棒卡”：
 
 https://github.com/aaronyi97/ai-collaboration-playbook/tree/main/kits/001-context-handoff
+
+重要：
+- 你不要现在写接棒卡。
+- 你第一轮只能问问题，不能输出极简版、完整版、解释版，也不能输出三份文档。
+- 如果你只收到了 GitHub 链接，但没有读到 Kit 内容，请先尝试读取链接。
+- 如果你打不开链接，仍然先按本提示词的阶段 1 问 6 个问题；不要凭空生成长文档。
 
 你现在运行在 AI 编程工具 / OpenClaw 环境里，不是普通网页版聊天。
 
@@ -19,6 +27,7 @@ https://github.com/aaronyi97/ai-collaboration-playbook/tree/main/kits/001-contex
 
 阶段 1：先问我 6 个问题
 - 只输出问题清单，不要生成接棒卡。
+- 这一轮最多 12 行。
 - 问题必须覆盖：
   1. 这个项目/任务的目标是什么？
   2. 现在做到哪一步？
@@ -38,13 +47,15 @@ https://github.com/aaronyi97/ai-collaboration-playbook/tree/main/kits/001-contex
 - 开头写清楚：“请把下面整段复制到新 AI 对话”。
 - 内容要让新 AI 即使看不到旧对话，也能继续任务。
 - 默认只给推荐版，不要同时输出极简版、完整版、解释版。
+- 最终可复制版尽量控制在 40 行以内；只有高风险任务才加长。
 
 阶段 4：只有当我明确说“给完整版”时，才输出完整接棒卡。
+- 如果你打不开 GitHub 链接，只有到这一步才需要让我粘贴 template.zh-CN.md。
 
 规则：
 - 已验证事实和推断必须分开。
 - 没有真实运行或证据，不要说测试已通过。
 - 不要包含密钥、API Key、私有 token、个人隐私。
 - 不要让我自己理解复杂模板；你负责把我的回答整理成能复制使用的最终卡片。
-- 如果你打不开 GitHub 链接，就让我粘贴 template 文件内容。
+- 只有当我要求“给完整版”且你打不开 GitHub 链接时，才让我粘贴 template 文件内容。
 ```

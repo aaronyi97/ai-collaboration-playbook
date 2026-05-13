@@ -23,7 +23,9 @@ The goal is not to build another framework. The goal is to make useful AI workfl
 
 If you use OpenClaw, Cursor, Claude Code, Codex, or another AI coding tool, start with the first kit:
 
-[Copy-paste starter prompt](kits/001-context-handoff/START.md)
+[Pinned comment starter](kits/001-context-handoff/PINNED.md)
+
+Do not send the GitHub link to the AI by itself. Open the file above, copy the full text block, and paste that into your AI coding tool.
 
 If you prefer to read the full guide:
 
@@ -41,6 +43,8 @@ If you prefer to read the full guide:
 │       ├── README.zh-CN.md
 │       ├── START.md
 │       ├── START.zh-CN.md
+│       ├── PINNED.md
+│       ├── PINNED.zh-CN.md
 │       ├── template.md
 │       ├── template.zh-CN.md
 │       └── examples/
@@ -80,4 +84,3 @@ It is especially useful when AI starts to forget:
 ## License
 
 MIT.
-
