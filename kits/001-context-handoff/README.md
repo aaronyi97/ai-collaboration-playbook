@@ -34,6 +34,8 @@ If you are using OpenClaw, Cursor, Claude Code, Codex, or another AI coding tool
 
 [Copy this starter prompt](START.md)
 
+The starter prompt runs in **guided mode**: it asks six questions first, shows a plain-language preview, and only generates the final copy-paste handoff after you confirm. It does not dump a long document immediately.
+
 If you want to fill the template manually:
 
 [Handoff template](template.md)
@@ -81,4 +83,3 @@ A handoff card keeps the useful context and removes the noise.
 - Move from one coding agent to another.
 - Send a project state summary to a teammate.
 - Save a checkpoint before a risky refactor.
-
